@@ -648,7 +648,7 @@
       <str name="qf">id fulltext</str>
       <str name="mm">2&lt;-1 5&lt;-2 6&lt;90%</str>
       <str name="facet">true</str>
-      <str name="facet.sort">count</str>
+      <str name="facet.sort">index</str>
       <str name="facet.mincount">1</str>
       <str name="facet.field">author_sm</str>
       <str name="facet.field">editor_sm</str>
