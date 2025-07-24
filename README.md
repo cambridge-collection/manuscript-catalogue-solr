@@ -24,6 +24,6 @@ Ideally, we'd store the schema/conf settings in a separate repository - to keep 
 
 All queries will return the first page of results (max 20 items)
 
-<http://localhost:8983/solr/cdcp/select?> -- retrieve all docs, the default when no query terms are given
-<http://localhost:8983/solr/cdcp/select?q=greek%20empire> -- retrieve all docs with 'Greek' and 'Empire'
-<http://localhost:8983/solr/cdcp/select?q=%22certain%20philosophical%20questions%22> -- retrieve all docs with the phrase "Certain Philosophical Questions". The title of a tract contained within Newton's Trinity Notebook. NB: The results are sorted by relevance but aren't in the order I would expect. The order of the results is: 'Certain Philosophical Questions' (MS Add 3996, ff 88r-135r), MS Add 3995 (various drafts and fragments - some of which resemble parts of the previous tract), MS Add 3996 itself. I would have expected 3996 to come before 3995.
+<http://localhost:8983/solr/mscat/select?q=*> -- retrieve all docs, the default when no query terms are given
+<http://localhost:8983/solr/mscat/select?q=galen> -- retrieve all docs with 'Galen'
+<http://localhost:8983/solr/mscat/select?q=%22de%20urinis%22> -- retrieve all docs with the phrase "de urinis".
